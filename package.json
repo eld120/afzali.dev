@@ -1,0 +1,25 @@
+{
+  "name": "afzali_dev",
+  "version": "1.0.0",
+  "description": "portfolio site",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @11ty/eleventy --serve --port=8089"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eld120/afzali.dev.git"
+  },
+  "author": "safzali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eld120/afzali.dev/issues"
+  },
+  "homepage": "https://github.com/eld120/afzali.dev#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "sass": "^1.69.5",
+    "water.css": "^2.1.1"
+  }
+}
