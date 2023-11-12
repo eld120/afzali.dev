@@ -1,4 +1,6 @@
 ---
 title: Smol 11ty Starter
-layout: page.njk
+layout: base.njk
 ---
+
+# Afzali.dev

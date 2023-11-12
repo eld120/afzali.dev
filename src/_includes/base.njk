@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=""{{ '/static/css/styles.css' | url }}"">
+    <link rel="stylesheet" href="{{ '/static/css/styles.css' | url }}">
     <title>{{ title }}{% if page.url != '/' %} | {{ meta.siteName }}{% endif %}</title>
 </head>
 <body>
+    {% include "nav.njk" %}
     {{ content | safe }}
+    {% include "footer.njk" %}
 </body>
 </html>

@@ -1,4 +1,7 @@
 #!/bin/bash
 
+
 npm start
-sass --watch src/_site/static/css/styles.sass src/_site/static/css/styles.css
+sass --watch src/static/css/styles.sass src/static/css/styles.css 
+
+
