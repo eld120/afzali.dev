@@ -1,25 +1,27 @@
 {
-  "name": "afzali_dev",
-  "version": "1.0.0",
-  "description": "portfolio site",
-  "main": "main.js",
+  "name": "afzali.dev",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx @11ty/eleventy --serve --port=8089"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/eld120/afzali.dev.git"
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "13.5.6"
   },
-  "author": "safzali",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/eld120/afzali.dev/issues"
-  },
-  "homepage": "https://github.com/eld120/afzali.dev#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "sass": "^1.69.5",
-    "water.css": "^2.1.1"
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.6"
   }
 }
