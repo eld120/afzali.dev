@@ -1,4 +1,9 @@
+'use client'
+
 import Image from 'next/image'
+import SocialBar from './components/SocialBar'
+
+import { Avatar, AvatarBadge, AvatarGroup } from '@chakra-ui/react'
 
 export default function Home() {
   return (
@@ -15,31 +20,45 @@ export default function Home() {
         </nav>
         <hr />
         {/* hero section */}
-        <div>
-          <h2>Hi I'm Seyamack</h2>
+        <div className='m-3'>
+          <h1 className='text-6xl font-bold'>Hi I'm Seyamack</h1>
+          <p className='text-xl'>I'm a freelance software engineer based in the Minneapolis-St Paul metro</p>
+          <p>13 years of experience working with specialty retailers and small-medium sized manufacturers with a focus on the outdoor industry</p>
+          <div className="flex gap-5">
+            <div >
+              {/* portfolio image */}
+              <Image
+                src={"/static/IMG_1465437914340.jpg"}
+                alt="Seyamack's headshot/avatar"
+                width={204}
+                height={225}
 
-          <h4>How can I help?</h4>
-          {/* email */}
-          {/* linkedin */}
-          {   /* github */}
-          {/* <Link></Link> */}
+              />
+              <SocialBar />
+            </div>
+
+          </div>
+
         </div>
-        <div>
-          {/* portfolio image */}
-          {/* <Image ></Image> */}
-        </div>
+
 
       </header>
       <section>
         {/* skills */}
-        <table>
-          <thead>Development</thead>
-          <tr><td>React/NextJS</td></tr>
-        </table>
-        <table>
-          <thead>Project Management</thead>
+        <div>
+          <h4>Development</h4>
+          <ul>
+            <li>Django/Python</li>
+            <li>React/Next</li>
+            <li>Vue/Nuxt</li>
+            <li>Shopify</li>
+            <li>Docker/DevOps</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Project Management</h4>
 
-        </table>
+        </div>
 
       </section>
       <section>
