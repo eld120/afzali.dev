@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 function SocialBar() {
     return (
-        <div className='flex gap-4'>
+        <div className='flex gap-6 justify-center'>
             {/* email */}
             < Link href={"mailto:devteam@origma.io"} >
                 <Image
