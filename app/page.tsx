@@ -1,27 +1,15 @@
-'use client'
+"use client";
 
-
-import NavBar from './components/NavBar'
-import Hero from './components/Hero'
-import Skills from './components/Skills'
+import Hero from "./components/Hero";
+import Skills from "./components/Skills";
+import Portfolio from "./components/Portfolio";
 export default function Home() {
   return (
     <>
-      <header>
-        {/* navbar */}
-        <NavBar />
-        <hr className='mb-8' />
-        {/* hero section */}
-        <Hero />
-
-
-      </header>
+      {/* hero section */}
+      <Hero />
       <Skills />
-      <section>
-        {/* My Work */}
-
-      </section>
-
+      <Portfolio />
     </>
-  )
+  );
 }
