@@ -13,21 +13,19 @@ function Skills() {
     <section>
       {/* skills */}
       <div>
-        <h4>Skills</h4>
-        <ul>
-          <li>Django/Python</li>
+        {/* <h4 className="text-2xl font-bold  mb-6">Skills</h4> */}
+        <ul className="flex flex-wrap justify-between gap-12">
           <Image width={100} height={100} src={PythonLogo} alt="Python Language Logo" />
           <Image width={100} height={100} src={DjangoLogoLight} alt="Django Web Framework Logo" />
 
-          <li>React/Next</li>
           <Image width={100} height={100} src={ReactLogo} alt="ReactJS Logo" />
           <Image width={100} height={100} src={NextLogo} alt="NextJS Logo" />
-          <li>Vue/Nuxt</li>
+
           <Image width={100} height={100} src={NuxtLogo} alt="NuxtJS Logo" />
           <Image width={100} height={100} src={VueLogo} alt="VueJS Logo" />
-          <li>Shopify</li>
+
           <Image width={100} height={100} src={ShopifyLogoDark} alt="Shopify Logo" />
-          <li>Docker/DevOps</li>
+
           <Image width={100} height={100} src={DockerLogo} alt="Docker Logo" />
         </ul>
       </div>
