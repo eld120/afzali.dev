@@ -5,9 +5,8 @@ import rezasrugthumbnail from "/public/static/rezasrugthumbnail.png";
 
 export default function Portfolio() {
   return (
-    <div className="text-center w-fit">
+    <div className="text-center w-fit my-12">
       <Link href={"https://rezasruggallery.com/"} target="_blank">
-        <h4 className="my-4 text-xl ">Reza&apos;s Rug Gallery</h4>
         <Image
           src={rezasrugthumbnail}
           width={300}
