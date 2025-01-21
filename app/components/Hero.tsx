@@ -28,7 +28,7 @@ function Hero() {
             alt="Seyamack's headshot/avatar"
             width={204}
             height={225}
-            className="mb-4"
+            className="mb-4 rounded-md"
           />
           <SocialBar />
         </div>
