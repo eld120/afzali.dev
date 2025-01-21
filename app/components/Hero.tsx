@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import SocialBar from "./SocialBar";
 import Link from "next/link";
@@ -6,10 +5,10 @@ import { Button } from "@chakra-ui/react";
 
 function Hero() {
   return (
-    <div className="m-3 flex">
-      <div className="max-w-96">
-        <h1 className="text-4xl font-bold mb-6">Hi I&apos;m Seyamack</h1>
-        <div className="text-gray-300 mb-4 font-light">
+    <div className="m-3 flex justify-between px-6 md:p-0">
+      <div className="max-w-96 w-1/2">
+        <h1 className="text-2xl md:text-4xl font-bold mb-6">Hi I&apos;m Seyamack</h1>
+        <div className="dark:text-gray-300  mb-4 font-light">
           <p className="mb-2">I&apos;m a software engineer based in the Minneapolis-St Paul metro</p>
           <p>I handle the development and maintenance of your website or app from start to finish</p>
         </div>

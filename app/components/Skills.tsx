@@ -1,4 +1,6 @@
-import React from "react";
+import Image from "next/image";
+
+// assets
 import PythonLogo from "@/public/static/logos/python-logo-only.svg";
 import NextLogo from "@/public/static/logos/nextjs-logotype-dark-background.svg";
 import DjangoLogoLight from "@/public/static/logos/django-logo-negative.svg";
@@ -7,14 +9,14 @@ import ReactLogo from "@/public/static/logos/React-icon.svg";
 import ShopifyLogoDark from "@/public/static/logos/shopify_logo_darkbg.svg";
 import VueLogo from "@/public/static/logos/Vue.js_Logo_2.svg";
 import DockerLogo from "@/public/static/logos/docker-logo-blue.svg";
-import Image from "next/image";
+
 function Skills() {
   return (
     <section>
       {/* skills */}
       <div>
         {/* <h4 className="text-2xl font-bold  mb-6">Skills</h4> */}
-        <ul className="flex flex-wrap justify-between gap-12">
+        <ul className="flex flex-wrap justify-between gap-12 px-6 md:p-0">
           <Image width={100} height={100} src={PythonLogo} alt="Python Language Logo" />
           <Image width={100} height={100} src={DjangoLogoLight} alt="Django Web Framework Logo" />
 
