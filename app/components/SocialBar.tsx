@@ -8,17 +8,17 @@ function SocialBar() {
   return (
     <div className="flex gap-6 justify-center">
       {/* email */}
-      <Link href={"mailto:seyamack@origma.io"} className="hover:-translate-y-2">
+      <a href={"mailto:seyamack@origma.io"} className="hover:-translate-y-2">
         <Image src={MailIcon} width={36} height={36} alt="Email Me Logo" />
-      </Link>
+      </a>
       {/* linkedin */}
-      <Link href={"https://www.linkedin.com/in/seyamack-a-912009202/"} className="hover:-translate-y-2">
+      <a href={"https://www.linkedin.com/in/seyamack-a-912009202/"} className="hover:-translate-y-2">
         <Image src={LinkedIn} alt="LinkedIn Logo" width={36} height={36} />
-      </Link>
+      </a>
       {/* github */}
-      <Link href={"https://github.com/eld120"} className="hover:-translate-y-2">
+      <a href={"https://github.com/eld120"} className="hover:-translate-y-2">
         <Image src={Github} alt="Github Logo" width={36} height={36} />
-      </Link>
+      </a>
     </div>
   );
 }

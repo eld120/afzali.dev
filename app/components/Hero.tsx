@@ -12,11 +12,11 @@ function Hero() {
           <p className="mb-2">I&apos;m a software engineer based in the Minneapolis-St Paul metro</p>
         </div>
         {/* <p className='text-lg mb-4'>I have over a decade of experience working with specialty retailers and manufacturers with a focus on the outdoor industry</p> */}
-        <Link href={"mailto:seyamack@origma.io"}>
+        <a href={"mailto:seyamack@origma.io"}>
           <Button colorScheme="yellow" className="my-4">
             <span className="font-light">Let&apos;s&nbsp;</span> Work Together
           </Button>
-        </Link>
+        </a>
       </div>
       <div className="flex gap-5">
         <div className="m-4">
