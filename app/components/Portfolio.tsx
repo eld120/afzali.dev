@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+// assets
 import rezasrugthumbnail from "/public/static/rezasrugthumbnail.png";
 
 export default function Portfolio() {
